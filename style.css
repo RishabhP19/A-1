@@ -1,0 +1,162 @@
+html {
+  display: block;
+}
+body {
+  font-family: "Architects Daughter", cursive;
+  background-image: url("img/k-p-bg-ae-4704.jpg");
+  background-attachment: fixed;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-family: "Tangerine", cursive;
+  font-size: 45px;
+  text-shadow: 0 0 5px red;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid white;
+  padding: 12;
+  margin: 15px 10px 30px 15px;
+  border-radius: 0px 20px;
+  box-shadow: black 0px 0px 10px;
+  width: 100%;
+}
+.container1 {
+  background-image: url("img/bg.jpg");
+  font-family: "Tangerine", cursive;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  position: absolute;
+  top: 60px;
+  left: 45px;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  display: grid;
+}
+@media screen and (min-width: 1150px) {
+  .container1 {
+    top: 55px;
+    left: 45px;
+  }
+}
+.container2 {
+  background-image: url("img/bg.jpg");
+  font-family: "Tangerine", cursive;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  position: absolute;
+  top: 1460px;
+  left: 45px;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  display: grid;
+}
+@media screen and (min-width: 1000) and (max-width: 1124px) {
+  .container2 {
+    top: 1260px;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .container2 {
+    top: 1230px;
+  }
+}
+.container3 {
+  background-image: url("img/bg.jpg");
+  font-family: "Tangerine", cursive;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  position: absolute;
+  top: 1090px;
+  left: 45px;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  display: grid;
+}
+@media screen and (min-width: 1000) and (max-width: 1124px) {
+  .container3 {
+    top: 910px;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .container3 {
+    top: 865px;
+  }
+}
+.container4 {
+  background-image: url("img/bg.jpg");
+  font-family: "Tangerine", cursive;
+  padding: 10px 25px;
+  font-size: 20px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  position: absolute;
+  top: 880px;
+  left: 45px;
+  padding-inline-start: 2px;
+  padding-inline-end: 2px;
+  display: grid;
+}
+@media screen and (min-width: 1000) and (max-width: 1124px) {
+  .container4 {
+    top: 755px;
+  }
+}
+@media screen and (min-width: 1125px) {
+  .container4 {
+    top: 650px;
+  }
+}
+
+table {
+  width: 100%;
+}
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  border-radius: 5px;
+}
+table td {
+  font-size: 20px;
+  padding: 5px;
+}
+textarea {
+  border-radius: 5px;
+  width: 200px;
+}
+input[type="text"],
+input[type="date"],
+input[type="number"],
+input[type="mnth"],
+select {
+  font-size: 15px;
+  height: 30px;
+  border-radius: 5px;
+}
+.button {
+  background-image: url("img/bg.jpg");
+  font-family: "Tangerine", cursive;
+  padding: 12px 25px;
+  font-size: 30px;
+  border: 2px solid white;
+  border-radius: 0 20px 0 20px;
+  box-shadow: 0 0 10px black;
+  color: white;
+  width: 150px;
+}
+.button:hover {
+  box-shadow: 0 0 10px rgb(212, 31, 31);
+}
